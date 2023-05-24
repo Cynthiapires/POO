@@ -13,10 +13,10 @@ class Idade {
 }
 
 void main() {
-  stdout.write("Digite o primeiro valor: ");
+  stdout.write("Digite seu ano de nacimento: ");
   int ano = int.parse(stdin.readLineSync()!);
 
-  stdout.write("Digite o segundo valor: ");
+  stdout.write("Digite ano atual: ");
   int anoAtual = int.parse(stdin.readLineSync()!);
 
   Idade idade = Idade(ano, anoAtual);
